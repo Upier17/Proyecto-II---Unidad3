@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registro</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <table class="menu">   
+    <tr>
+      <td><a href=>Registro</a> </td>
+      <td><a href=>Inicio</a> </td>
+      <td><a href=>Productos</a> </td>
+      <td><a href=>Ubicaciones</a> </td>
+    </tr>
+     </table>
+
+<div class="container">
+    <h1>Administrador de cuentas</h1>
+    <div id="createAccountForm" class="form">
+        <h2>Crear cuenta nueva</h2>
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button onclick="createAccount()">Crear cuenta</button>
+    </div>
+    <div id="loginForm" class="form">
+        <h2>Iniciar sesion</h2>
+        <input type="email" id="loginEmail" placeholder="Email" required>
+        <input type="password" id="loginPassword" placeholder="Password" required>
+        <button onclick="login()">Iniciar sesion</button>
+    </div>
+    <div id="recoverPasswordForm" class="form">
+        <h2>Restablecer contraseña</h2>
+        <input type="email" id="recoverEmail" placeholder="Email" required>
+        <button onclick="recoverPassword()">Restablecer contraseña</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
