@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.menu li a:hover {
+    background-color: #0056b3;
+}
+
+.categorias {
+    padding: 20px;
+    text-align: center;
+}
+
+.categorias p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.categorias ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.categorias li {
+    margin-bottom: 10px;
+}
+
+.categorias li a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.categorias li a:hover {
+    color: #0056b3;
+}
+
+
+/* Samsung*/
+.samsung {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.samsung h1 {
+    color: #007BFF;
+}
+
+.samsung p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.flexpicture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.picturesize {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.samsung img {
+    border-radius: 10px;
+    width: 250px;
+    height: 150px;
+}
+
+.alineartexto {
+    text-align: left;
+}
+
+/*Apple*/
+
+.Apple {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.Apple h1 {
+    color: #007BFF;
+}
+
+.Apple p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.apple-logo {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.alineartexto {
+    text-align: left;
+}
+
+.Apple img{
+  border-radius: 10px;
+  width: 250px;
+  height: 100px;
+}
+
+/*lg*/
+
+.LG {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.LG h1 {
+    color: #007BFF;
+}
+
+.LG p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.lg-logo {
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.alineartexto {
+    text-align: left;
+}
+
+.LG img{
+border-radius: 20px;
+width: 250px;
+height: 150px;
+}
+
+/*motorola*/
+
+.Motorola {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.Motorola h1 {
+    color: #007BFF;
+}
+
+.Motorola p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.motorola-logo {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.alineartexto {
+    text-align: left;
+}
+
+.Motorola img{
+ border-radius: 20px;
+ width: 250px;
+ height: 100px;
+}
